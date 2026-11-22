@@ -12,8 +12,8 @@ Competitive programming solutions in C++ with two files per problem: a clean sub
 
 Each problem is represented by **two `.cpp` files**:
 
-- **`problem_name.cpp`** — a clean, submission-ready solution. No comments, no debug output, no user prompts. This is exactly what gets pasted into the judge system.
-- **`problem_name_annotated.cpp`** — a detailed listing with comments explaining the approach, key ideas, edge cases, and complexity analysis.
+- **`problem_name.cpp`** - a clean, submission-ready solution. No comments, no debug output, no user prompts. This is exactly what gets pasted into the judge system.
+- **`problem_name_annotated.cpp`** - a detailed listing with comments explaining the approach, key ideas, edge cases, and complexity analysis.
 
 This dual format lets you quickly grab a working solution or study the reasoning behind it.
 
@@ -21,11 +21,11 @@ This dual format lets you quickly grab a working solution or study the reasoning
 
 When solving problems, I tried to follow the usual requirements of competitive programming:
 
-- **Correctness** — the solution should pass the tests, including edge cases.
-- **Efficiency** — algorithms should respect time limits (typically 1–5 seconds) and memory limits (typically 256–1024 MB), and handle maximum input sizes (e.g., n = 10^6).
-- **Strict I/O format** — input is read from standard input (`cin`), output is written to standard output (`cout`). No prompts, no extra words, no extra spaces or blank lines. The output should match the expected answer exactly.
-- **Standard C++** — programs are written in **C++17** and compiled with **g++ 14.2.0** (Debian 14.2.0-19). I aimed for code that compiles without errors or warnings.
-- **Readability and reliability** — I tried to keep the structure clean, use meaningful variable names, avoid unnecessary operations, and use fast I/O where needed.
+- **Correctness** - the solution should pass the tests, including edge cases.
+- **Efficiency** - algorithms should respect time limits (typically 1–5 seconds) and memory limits (typically 256–1024 MB), and handle maximum input sizes (e.g., n = 10^6).
+- **Strict I/O format** - input is read from standard input (`cin`), output is written to standard output (`cout`). No prompts, no extra words, no extra spaces or blank lines. The output should match the expected answer exactly.
+- **Standard C++** - programs are written in **C++17** and compiled with **g++ 14.2.0** (Debian 14.2.0-19). I aimed for code that compiles without errors or warnings.
+- **Readability and reliability** - I tried to keep the structure clean, use meaningful variable names, avoid unnecessary operations, and use fast I/O where needed.
 
 ## Problem difficulty
 
@@ -55,4 +55,4 @@ When solving problems, I tried to follow the usual requirements of competitive p
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
