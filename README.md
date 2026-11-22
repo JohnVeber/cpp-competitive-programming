@@ -1,10 +1,12 @@
 # cpp-competitive-programming
+
 Competitive programming solutions in C++ with two files per problem: a clean submission and an annotated explanation.
 
 ## About
 
-This repository contains my solutions to competitive programming problems, starting with an advanced C++ course for high school students (grades 10–11) and expanding to other sources over time.
-Problems are organized by topic and source in separate folders.
+- This repository contains my solutions to competitive programming problems.
+- It starts with an advanced C++ course for high school students (grades 10–11) and will expand to other sources over time.
+- Problems are organized by topic and source in separate folders.
 
 ## Repository structure
 
@@ -27,7 +29,23 @@ When solving problems, I tried to follow the usual requirements of competitive p
 
 ## Problem difficulty
 
-The problems are olympiad-style: they usually require nontrivial algorithms and data structures (sorting, searching, dynamic programming, graphs, trees, hashing, greedy algorithms, and more), careful analysis of constraints, and handling of boundary cases. Simple brute force is often not enough.
+- The problems are olympiad-style.
+- They usually require nontrivial algorithms and data structures (sorting, searching, dynamic programming, graphs, trees, hashing, greedy algorithms, and more).
+- They also require careful analysis of constraints and handling of boundary cases.
+- Simple brute force is often not enough.
+
+## Standard and portability
+
+- Solutions in this repository are compiled with the `-std=c++17` flag rather than `-std=gnu++17`.
+- This means the code is intentionally kept within the ISO C++17 standard and does not rely on the GNU extensions that GCC (g++) enables by default.
+- This choice is made for portability: a solution that conforms to the pure standard is more likely to build on other compilers (Clang, MSVC) and other platforms, which matters in competitive programming.
+
+## Building
+
+- For builds through Visual Studio Code, a `tasks.json` file is included in this repository; it invokes `g++` with `-std=c++17`.
+- The output binary is placed next to the source file and prefixed with `build_` (for example, `seating_arrangement_annotated.cpp` produces `build_seating_arrangement_annotated`).
+- These binaries are ignored by Git via the `build_*` pattern in `.gitignore`.
+- If you compile manually, note that `g++` defaults to the GNU dialect (`gnu++17`); pass `-std=c++17` explicitly if you want strict standard conformance.
 
 ## Notes
 
